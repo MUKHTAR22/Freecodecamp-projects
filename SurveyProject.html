@@ -1,0 +1,84 @@
+<DOCTYPE html>
+
+  <html>
+    <head>
+      <title>survey Form</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+    <h1 id="title"> isdiwaangalin</h1>
+    <p id="description">fadlan buuxi formkaan si aad isku diwaan galiso</p>
+
+    <form id="survey-form">
+      <div class="outer-div">
+         <div>
+           <label id="name-label">Name: <input required type="text"id="name" placeholder="Fadlan gali magacaga">
+      </label>
+      </div>
+         <div>
+<label id="email-label">Email: <input required type="email"id="email" placeholder="Fadlan gali Email-kaga">
+      </label>
+         </div>
+         <div>
+ <label id="number-label">Age: <input type="number"id="number" min="13" max="45" placeholder="Age">
+      </label>
+         </div>
+      </div>
+    
+      <div class="outer-div">
+ <label>
+    Shaqada: <select id="dropdown">
+    <option>Arday</option>
+    <option>Macalin</option>
+</select>
+  </label>
+      </div>
+
+    <div class="outer-div">
+      <label>Genderka:
+   <input type="radio" name="gender" value="lab">Lab
+   
+    <input type="radio" name="gender" value="dhedig">dhedig
+     </label>
+    </div>
+
+  
+ 
+<div class="outer-div"> hobbies
+  <div>
+    <input type="checkbox" value="Akhrin"> Akhrin
+    </label>
+  </div>
+
+   <div>
+    <input type="checkbox" value="Gym"> Gym
+    </label>
+  </div>
+
+   <div>
+    <input type="checkbox" value="Banooni"> Banooni
+    </label>
+  </div>
+
+   <div>
+    <input type="checkbox" value="Dabaal"> Dabaal
+    </label>
+  </div>
+</div>
+
+
+<div class="outer-div">
+<textarea placeholder="fadlan raigaaga nagu biiri" rows="4" cols="20"></textarea>
+</div>
+
+<div class="outer-div">
+<label>
+  <input class="submit" type="submit" id="submit">
+</label>
+</div>
+
+    </form>
+
+  </body>
+
+  </html>

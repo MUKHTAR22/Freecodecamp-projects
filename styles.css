@@ -1,0 +1,38 @@
+p,h1{
+  color: gray;
+padding: 0 20%;
+margin-bottom: 5px;
+
+
+}
+body{
+  font-family: Arial;
+
+}
+form{
+   background: linear-gradient(0.25turn, #3f87a6, #f69d3c);
+   padding: 10;
+   border: 1px solid black;
+   border-radius: 6px;
+}
+
+.outer-div{
+  margin-bottom:12px;
+}
+input,select{
+  font-size:15px;
+  color: gray;
+  padding: 3px 20px;
+  border-radius: 8px;
+  
+}
+
+.submit{
+  color: white;
+  background-color: blue;
+  border: 1px solid gray;
+  font-size: 15px;
+  padding: 6px 15px;
+  border-radius: 15px;
+  margin: 0 50;
+}
