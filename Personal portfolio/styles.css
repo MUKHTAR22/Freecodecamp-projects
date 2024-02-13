@@ -1,0 +1,164 @@
+:root{
+  --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+*{
+  margin: 0;
+}
+
+@media (max-width: 61.25em){
+html {
+    font-size: 58%;
+}
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+    
+}
+h1{
+  font-size: 5rem;
+}
+
+#navbar{
+  background: var(--main-red);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  flex-direction: row;
+  justify-content: end;
+  
+  
+}
+
+#nav-list{
+  display: flex;
+  flex-direction: row;
+  height:80%;
+   justify-content: end;
+   align-items: center;
+  margin: 13px 10px;
+  
+}
+
+#nav-list li{
+  list-style: none; 
+  
+}
+
+#nav-link{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+/* done the nav-bar */
+
+#welcome-section{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background: var(--main-gray);
+  position: absolute;
+  z-index:-1;
+  top: 60px;
+
+}
+
+
+
+.text{
+  margin: auto;
+}
+
+.text p{
+  margin: 0 18%;
+  color: var(--main-red);
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 200;
+}
+/*done the welcome section*/
+
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background: var(--main-blue);
+   position: absolute;
+  z-index:-1;
+  top: 460px;
+  
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.project-tile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-gray);
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+/* done the project part*/
+
+.btn.btn-show-all{
+  background: var(--main-gray);
+  color: var(--main-white);
+  padding: 5px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 2px auto;
+
+}
+
+
+#about-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background: var(--main-gray);
+  position: absolute;
+  z-index:-1;
+  top: 1060px;
+
+}
+#profile-link{
+  background: var(--main-blue);
+  color: var(--main-white);
+  padding: 5px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 2px auto;
+}
